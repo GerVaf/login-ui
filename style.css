@@ -1,0 +1,46 @@
+.blank{
+    /* width: 200px; */
+    height: 400px;
+    background-color: transparent;
+}
+/* .button{
+    background-color: rgb(141, 152, 199);
+} */
+.button:hover{
+    color: rgb(49, 49, 192);
+}
+/* .logo{
+    color: blue;
+    background-color: blue;
+} */
+
+.fix{
+    height: 100px;
+    object-position: middle;
+    /* width: 100%;
+    height: 100%; */
+    object-fit: cover;
+}
+.fixd{
+    height: 150px;
+    object-position: middle;
+    /* width: 100%;
+    height: 100%; */
+    object-fit: cover;
+}
+
+
+.error{
+    background-color: rgb(245, 217, 217);
+}
+
+@media screen and (max-width: 420px) {
+    .for-desktop{
+        display: none;
+    }
+}
+@media screen and (min-width: 420px) {
+    .for-mobile{
+        display: none;
+    }
+}
